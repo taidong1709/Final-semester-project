@@ -1,0 +1,250 @@
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.menu2 > a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 900;
+}
+
+.menu2 > a:hover {
+    color: green;
+}
+
+.head {
+    border: 1px solid white;
+    background-color: green;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.head1 {
+    display: inline;
+    width: fit-content;
+}
+
+.head11 {
+    margin-right: 50%;
+    margin-left: 10%;
+    color: white;
+    font-size: 20px;
+}
+
+.head12 {
+    margin-right: 40px;
+}
+
+.headnho {
+    margin: 10px 0;
+}
+
+.head12 > a > i {
+    color: white;
+}
+
+.head13 > a > i {
+    color: white;
+}
+
+.MENU > img{
+    width: 120px;
+    height: 60px;
+}
+
+.menu2 {
+    display: inline;
+    width: fit-content;
+    margin: 0 2%    
+}
+
+.secondhead {
+    border: 1px solid white;
+    margin-top: 37px;
+    position: fixed;
+    width: 100%;
+    background-color: ;
+    background-color: white;
+}
+
+.MENU {
+    display: inline;
+    vertical-align: middle;
+    margin-right: -4%;
+    margin-left: 9.5%;
+}
+
+.phone {
+    animation: phone 1s ;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes phone {
+    from { color: red;}
+    to { color: yellow;}
+}
+
+.cha{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 8%;
+    z-index: -1;
+}
+
+.cha .layer1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    animation: zoomlen 10s forwards;
+}
+
+.cha .layer2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    height: 90px;
+    margin-left: -400px;
+    margin-top: -50px;
+    color: #FD1C06;
+    text-align: center;
+    font-size: 40px;
+    animation: roixuong 2s forwards;
+    animation-duration: 2s;
+    font-family: 'Sansita Swashed', cursive;
+
+}
+@keyframes zoomlen {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}
+@keyframes roixuong {
+    from {
+        top: 40%;
+    }
+    to {
+        top: 50%
+    }
+}
+
+header {
+    position: fixed;
+}
+
+.tour {
+    margin: 0 10%;
+}
+
+.tournho1 {
+    border: 1px solid white;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none; 
+}
+
+.tourinfo1 {
+    margin-bottom: 3px;
+}
+ 
+.h3a {
+    margin-top: -4px;
+    border: 1px solid white;
+    background-color: #D8EFFD;
+}
+
+.h3a2 {
+    width: 350px;
+}
+
+.h3a3 {
+    width: 356px;
+}
+
+.price1 {
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 13%;
+}
+
+.price1 > p {
+    color: green;
+    font-weight: bolder;
+}
+
+.price2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 13%;
+}
+
+.price2 > #p2 {
+    font-size: 17px;
+    color: green;
+    font-weight: bolder;
+}
+
+.price2 > #p1 {
+    font-size: 17px;
+    color: gray;
+    font-weight: bolder;
+}
+
+.price3 {
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 13%;
+}
+.p3 {
+    font-size: 17px;
+    color: green;
+    font-weight: bolder;
+}
+
+.menu22 {
+    margin-left: 10%;
+    height: 10px;
+    border: 1px solid white;
+    width: fit-content;
+    padding: 10px 0;
+    background-color: #781FFE;
+    border-radius: 10px;
+}
+
+@keyframes logout {
+    from { color: black;}
+    to { color: white;}
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#line2 {
+    margin-top: 90px;
+}
+
+.h3l2 {
+    border: 1px solid white;
+    background-color: #D8EFFD;
+    width: 278px;
+    margin-top: -4px;
+}

@@ -1,12 +1,14 @@
-
+body {
+    background-image: url(../img/backgroundlogin.jpg);
+}
 .signup{
     border: 1px solid blue;
     width: 650px;
     position: absolute;
-    left: 754px;
     background-color: lightblue;
     height: 700px;
-}
+    animation: signup 5s forwards;
+}   
 h1{
     color: black;
     font-family: 'Lobster Two', cursive;
@@ -61,4 +63,21 @@ h4{
 }
 a{
     text-decoration: none;
+}   
+.among > img {
+    width: 300px;
+    height: 300px;
+}
+.among {
+    position: absolute;
+    top: 30%;
+    animation: among 5s forwards;
+}
+@keyframes signup {
+    from {left: 0;}
+    to {left: 30%;}
+}   
+@keyframes among {
+    from {left: 51%;}
+    to {left: 75%;}
 }

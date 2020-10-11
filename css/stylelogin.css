@@ -1,4 +1,6 @@
-
+body {
+    background-image: url(../img/backgroundlogin.jpg);
+}
 #title{
     font-weight: bold;
     text-align: center;
@@ -47,3 +49,38 @@ a{
 .content{
     margin-top: 88px;
 }   
+.animation {
+    position: absolute;
+    left: 22%;
+    top: -16%;
+}
+.hello {
+    position: absolute;
+    left: 40%;
+    top: 79%;
+}
+.hello > h2 {
+    color: #3D3B3D;
+    font-weight: bolder;
+}
+.intro {
+    width: 35%;
+    position: absolute;
+    left: 16%;
+    animation: intro 4s forwards;
+}
+@keyframes intro {
+    from { top: 0;}
+    to { top: 17%;}
+}
+.intro > p {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+    color: #3D3B3D;
+    font-weight: bolder;
+}
+.intro > img {
+    width: 400px;
+    height: 200px;
+    opacity: 1;
+}
