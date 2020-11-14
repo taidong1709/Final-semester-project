@@ -66,17 +66,20 @@ a{
 }   
 
 .among {
-    width: 300px;
-    height: 300px;
     position: absolute;
     top: 30%;
     animation: among 5s forwards;
+}
+
+.among > img {
+    width: 350px;
+    height: 500px;
 }
 @keyframes signup {
     from {left: 0;}
     to {left: 30%;}
 }   
 @keyframes among {
-    from {left: 51%; background-image: url(../img/among\ move.gif) }
-    to {left: 75%; background-image: url() }
+    from {left: 51%;}
+    to {left: 75%;}
 }
