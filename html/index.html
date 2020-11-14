@@ -9,6 +9,7 @@
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styleindex.css">
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+    <script src="../js/index.js"></script>
 </head>
 
 <body>
@@ -18,7 +19,13 @@
                 <div class="head1 head11">
                     Hotline:
                     <strong class="phone">036 7538769</strong>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <span id="currentName"></span>
                 </div>
+
                 <div class="head1 head12">
                     <a href="">
                         <i class="fas fa-credit-card">&nbsp;Thanh Toán Online</i>
@@ -52,10 +59,10 @@
                 <div class="menu2">
                     <a href="#">TIN TỨC</a>
                 </div>
-                <div class="menu2 menu22">
+                <div class="menu22 menu2" id="login-logout" style="display: block">
                     <a style="color: black; vertical-align: middle; animation: logout 1s; animation-iteration-count: infinite; animation-delay: 0.5;"
-                        href="../html/login.html">
-                        Đăng Xuất
+                        href="#" id="login-logout-child">
+                        Đăng nhập
                     </a>
                 </div>
             </div>
@@ -192,7 +199,8 @@
                                 <img src="../img/img5.jpg" alt="img4">
                             </a>
                             <h3 class="h3l2">
-                                <a style="color: #2C2D2E;" href="#">Tour miền Tây: Mỹ Tho - Cần Thơ - Cà Mau - Đất Mũi - Sóc Trăng - Bạc Liêu</a>
+                                <a style="color: #2C2D2E;" href="#">Tour miền Tây: Mỹ Tho - Cần Thơ - Cà Mau - Đất Mũi -
+                                    Sóc Trăng - Bạc Liêu</a>
                             </h3>
                         </div>
                         <div>
@@ -220,7 +228,8 @@
                                 <img src="../img/img6.jpg" alt="img4">
                             </a>
                             <h3 class="h3l2">
-                                <a style="color: #2C2D2E;" href="#">Tour Tây Bắc: Mai Châu - Mộc Châu - Sơn La - Sapa - Yên Bái - Phú Thọ</a>
+                                <a style="color: #2C2D2E;" href="#">Tour Tây Bắc: Mai Châu - Mộc Châu - Sơn La - Sapa -
+                                    Yên Bái - Phú Thọ</a>
                             </h3>
                         </div>
                         <div>
@@ -248,7 +257,8 @@
                                 <img src="../img/img7.jpg" alt="img4">
                             </a>
                             <h3 class="h3l2">
-                                <a style="color: #2C2D2E;" href="#">Tour Phú Quốc: Ngắm hoàng hôn tại Sunset Sanato <br>&nbsp;&nbsp; </a>
+                                <a style="color: #2C2D2E;" href="#">Tour Phú Quốc: Ngắm hoàng hôn tại Sunset Sanato
+                                    <br>&nbsp;&nbsp; </a>
                             </h3>
                         </div>
                         <div>
@@ -272,7 +282,135 @@
                 </div>
             </div>
         </div>
+        <div class="tour" id="line2">
+            <div class="tournho1">
+                <div>
+                    <h2 style="color: #054B74;">DU LỊCH TỰ CHỌN</h2>
+                </div>
+                <div class="flex-container">
+                    <div style="margin-right: 10px">
+                        <div>
+                            <a href="">
+                                <img src="../img/img 8.jpg" alt="img8">
+                            </a>
+                            <h3 class="h3l2">
+                                <a style="color: #2C2D2E;" href="#">Combo Saint Simeon Resort and Spa Long Hải 5* - xe
+                                    đón tiễn <br> &nbsp;</a>
+                            </h3>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div class="tourinfo price2">
+                            <div class="tourinfo1">
+                                <i class="far fa-clock">&nbsp;&nbsp;2 ngày 1 đêm</i>
+                            </div>
+                            <div class="tourinfo1">
+                                <i class="far fa-calendar-check">&nbsp;&nbsp;20/10/2020</i>
+                            </div>
+                            <div class="tourinfo1">
+                                <i class="far fa-user">&nbsp;&nbsp;Còn nhận: 8</i>
+                            </div>
+                        </div>
+                        <div class="price2">
+                            <p id="p2">1,990,000đ</p>
+                        </div>
+                    </div>
+                    <div style="margin-right: 10px">
+                        <div>
+                            <a href="">
+                                <img src="../img/img9.jpg" alt="img9">
+                            </a>
+                            <h3 class="h3l2">
+                                <a style="color: #2C2D2E;" href="#">Free and Easy - Vé Tham Quan Vườn Chim Jurong có xe
+                                    đưa đón 2 chiều</a>
+                            </h3>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div class="tourinfo price2 price3">
+                            <div class="tourinfo1">
+                                <i class="far fa-clock">&nbsp;&nbsp;1 ngày 0 đêm</i>
+                            </div>
+                            <div class="tourinfo1">
+                                <i class="far fa-calendar-check">&nbsp;&nbsp;28/10/2020</i>
+                            </div>
+                            <div class="tourinfo1">
+                                <i class="far fa-user">&nbsp;&nbsp;Còn nhận: 3</i>
+                            </div>
+                        </div>
+                        <div class="price3">
+
+                            <p class="p3">1,128,000đ</p>
+                        </div>
+                    </div>
+                    <div style="margin-right: 10px">
+                        <div>
+                            <a href="">
+                                <img src="../img/img10.jpg" alt="img4">
+                            </a>
+                            <h3 class="h3l2">
+                                <a style="color: #2C2D2E;" href="#">Free & Easy Royal Lotus Hạ Long Resort & Villas <br>
+                                    &nbsp;</a>
+                            </h3>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div class="tourinfo price2 price3">
+                            <div class="tourinfo1">
+                                <i class="far fa-clock">&nbsp;&nbsp;4 ngày 3 đêm</i>
+                            </div>
+                            <div class="tourinfo1">
+                                <i class="far fa-calendar-check">&nbsp;&nbsp;3/11/2020</i>
+                            </div>
+                            <div class="tourinfo1">
+                                <i class="far fa-user">&nbsp;&nbsp;Còn nhận: 21</i>
+                            </div>
+                        </div>
+                        <div class="price3">
+
+                            <p class="p3">1,650,000đ</p>
+                        </div>
+                    </div>
+                    <div style="margin-right: 10px">
+                        <div>
+                            <a href="">
+                                <img src="../img/img11.png" alt="img4">
+                            </a>
+                            <h3 class="h3l2">
+                                <a style="color: #2C2D2E;" href="#">Free & easy Đà Lạt 4 sao + xe Dcar<br>&nbsp;&nbsp;
+                                </a>
+                            </h3>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div class="tourinfo price2 price3">
+                            <div class="tourinfo1">
+                                <i class="far fa-clock">&nbsp;&nbsp;3 ngày 2 đêm</i>
+                            </div>
+                            <div class="tourinfo1">
+                                <i class="far fa-calendar-check">&nbsp;&nbsp;7/12/2020</i>
+                            </div>
+                            <div class="tourinfo1">
+                                <i class="far fa-user">&nbsp;&nbsp;Còn nhận: 9</i>
+                            </div>
+                        </div>
+                        <div class="price3">
+                            <p class="p3">1,790,000đ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="color: green; opacity: 2;">
+        </div>
     </main>
+
+    <footer>
+
+    </footer>
 </body>
 
 </html>

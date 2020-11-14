@@ -9,31 +9,32 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Press+Start+2P&family=Sansita+Swashed:wght@600&display=swap"
         rel="stylesheet">
+    <script src="../js/signup.js"></script>
 </head>
 
 <body>
     <div>
         <div class="signup">
-            <form action="../html/login.html" method="GET">
+            <form action="#" method="GET" id="regform">
                 <div>
                     <h1>Đăng Kí</h1>
                     <hr>
                 </div>
                 <div class="name">
-                    <input class="input1" type="text" placeholder="Tên">
-                    <input class="input1" type="text" placeholder="Họ">
+                    <input name="firstname" class="input1" type="text" placeholder="Tên">
+                    <input name="lastname" class="input1" type="text" placeholder="Họ">
                 </div>
                 <div>
-                    <input class="input2" type="text" placeholder="Địa chỉ email">
+                    <input name="email" class="input2" type="email" placeholder="Địa chỉ email">
                 </div>
                 <div>
-                    <input class="input2" type="text" placeholder="Tên đăng nhập">
+                    <input name="username" class="input2" type="text" placeholder="Tên đăng nhập">
                 </div>
                 <div>
-                    <input class="input2" type="password" placeholder="Mật khẩu">
+                    <input name="password" class="input2" type="password" placeholder="Mật khẩu">
                 </div>
                 <div>
-                    <input class="input2" type="password" placeholder="Nhập lại mật khẩu">
+                    <input name="retypepassword" class="input2" type="password" placeholder="Nhập lại mật khẩu">
                 </div>
                 <div>
                     <h4>Giới tính</h4>
@@ -58,57 +59,18 @@
                     <h4>Ngày sinh</h4>
                     <div class="dob">
                         <span>
-                            <select name="dob" id="#">
+                            <select name="ngay" id="ngaysinh">
                                 <option selected disabled>Ngày</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="1">6</option>
-                                <option value="1">7</option>
-                                <option value="1">8</option>
-                                <option value="1">9</option>
-                                <option value="1">10</option>
-                                <option value="1">11</option>
-                                <option value="1">12</option>
-                                <option value="1">13</option>
-                                <option value="1">14</option>
-                                <option value="1">15</option>
-
                             </select>
                         </span>
                         <span>
-                            <select name="dob" id="#">
+                            <select name="thang" id="thangsinh">
                                 <option selected disabled>Tháng</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="1">6</option>
-                                <option value="1">7</option>
-                                <option value="1">8</option>
-                                <option value="1">9</option>
-                                <option value="1">10</option>
-                                <option value="1">11</option>
-                                <option value="1">12</option>
                             </select>
                         </span>
                         <span>
-                            <select name="dob" id="#">
+                            <select name="nam" id="namsinh">
                                 <option selected disabled>Năm</option>
-                                <option value="1">2000</option>
-                                <option value="2">2001</option>
-                                <option value="3">2002</option>
-                                <option value="4">2003</option>
-                                <option value="5">2004</option>
-                                <option value="1">2005</option>
-                                <option value="1">2006</option>
-                                <option value="1">2007</option>
-                                <option value="1">2008</option>
-                                <option value="1">2009</option>
-                                <option value="1">2010</option>
                             </select>
                         </span>
                         <div class="agree">
@@ -123,10 +85,10 @@
                     <input class="end" type="submit" value="Đăng kí">
                 </div>
             </form>
+            <br>
+            <p style="text-align: center" id="errorMsg"></p>
         </div>
-        <div class="among">
-            <img src="../img/among move.gif" alt="among">
-        </div>
+        <div class="among"></div>
     </div>
 </body>
 

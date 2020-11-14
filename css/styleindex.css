@@ -35,8 +35,12 @@ body {
     font-size: 20px;
 }
 
+.head12,.head13 {
+    float: right;
+    margin-right: 20px;
+}
+
 .head12 {
-    margin-right: 40px;
 }
 
 .headnho {
@@ -67,7 +71,6 @@ body {
     margin-top: 37px;
     position: fixed;
     width: 100%;
-    background-color: ;
     background-color: white;
 }
 

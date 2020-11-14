@@ -64,11 +64,10 @@ h4{
 a{
     text-decoration: none;
 }   
-.among > img {
+
+.among {
     width: 300px;
     height: 300px;
-}
-.among {
     position: absolute;
     top: 30%;
     animation: among 5s forwards;
@@ -78,6 +77,6 @@ a{
     to {left: 30%;}
 }   
 @keyframes among {
-    from {left: 51%;}
-    to {left: 75%;}
+    from {left: 51%; background-image: url(../img/among\ move.gif) }
+    to {left: 75%; background-image: url() }
 }
